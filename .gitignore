@@ -1,0 +1,10 @@
+venv/
+.idea/
+.ipynb_checkpoints/
+
+*.png
+*.csv
+*.xls
+*.xlsm
+*.xlsx
+*.dot
