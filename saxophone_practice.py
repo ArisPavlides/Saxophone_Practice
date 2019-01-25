@@ -1,14 +1,12 @@
 import random
-import ctypes
 import time
 
 notes = ["ντο", "ρε", "μι", "φα", "σολ", "λα", "σι"]
-random.shuffle(notes)
+octave = ["medium", "high"]
 
-def Mbox(title, text, style):
-    return ctypes.windll.user32.MessageBoxW(0, text, title, style)
+random.shuffle(notes)
 
 while True:
 
-   print("Give me a:" + random.choice(notes))
+   print("Give me a:" + random.choice(octave) + " " + random.choice(notes))
    time.sleep(6)
