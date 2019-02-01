@@ -1,12 +1,12 @@
 import random
 import time
 
-notes = ["ντο", "ρε", "μι", "φα", "σολ", "λα", "σι"]
+notes = ["ντο", "ντο#", "ρε", "ρε#", "μι", "φα", "φα#", "σολ", "σολ#", "λα", "λα#", "σι"]
 octave = ["medium", "high"]
 
 random.shuffle(notes)
 
 while True:
 
-   print("Give me a:" + random.choice(octave) + " " + random.choice(notes))
+   print("Give me a: " + random.choice(octave) + " " + random.choice(notes))
    time.sleep(6)
